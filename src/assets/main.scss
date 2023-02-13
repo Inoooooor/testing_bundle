@@ -1,2 +1,7 @@
 @import "bootstrap";
-/* @import url('./styles.scss'); */
+
+$testVar: black;
+
+.test {
+  background-color: black;
+}

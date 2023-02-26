@@ -1,7 +1,10 @@
 @import "bootstrap";
+@import url('./base.scss');
 
-$testVar: black;
 
-.test {
-  background-color: black;
+$testVar: yellow;
+
+.yellow {
+  background-color: $testVar;
 }
+
